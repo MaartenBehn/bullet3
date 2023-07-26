@@ -114,6 +114,7 @@ public:
 class btCapsuleShapeX : public btCapsuleShape
 {
 public:
+    btCapsuleShapeX() = default;
 	btCapsuleShapeX(btScalar radius, btScalar height);
 
 	//debugging

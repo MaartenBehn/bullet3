@@ -26,6 +26,7 @@ btSphereShape : public btConvexInternalShape
 public:
 	BT_DECLARE_ALIGNED_ALLOCATOR();
 
+    btSphereShape() = default;
 	btSphereShape(btScalar radius) : btConvexInternalShape()
 	{
 		m_shapeType = SPHERE_SHAPE_PROXYTYPE;

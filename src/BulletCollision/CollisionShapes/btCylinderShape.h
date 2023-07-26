@@ -44,6 +44,7 @@ public:
 		return m_implicitShapeDimensions;  //changed in Bullet 2.63: assume the scaling and margin are included
 	}
 
+    btCylinderShape() = default;
 	btCylinderShape(const btVector3& halfExtents);
 
 	void getAabb(const btTransform& t, btVector3& aabbMin, btVector3& aabbMax) const;
